@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 126" fill="none">
+  <defs>
+    <linearGradient id="mhsGold" x1="60" y1="6" x2="60" y2="120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f9e9a0"/>
+      <stop offset="0.38" stop-color="#e7c45a"/>
+      <stop offset="0.7" stop-color="#cf9e3c"/>
+      <stop offset="1" stop-color="#a9772a"/>
+    </linearGradient>
+    <linearGradient id="mhsShine" x1="40" y1="60" x2="80" y2="112" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff6d8" stop-opacity="0.85"/>
+      <stop offset="0.5" stop-color="#fff6d8" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g fill="url(#mhsGold)">
+    <!-- crown -->
+    <path d="M36 44 L41.5 17 L52 31 L60 11 L68 31 L78.5 17 L84 44 Z"/>
+    <rect x="36" y="45.5" width="48" height="7" rx="2"/>
+    <circle cx="41.5" cy="14.5" r="3.4"/>
+    <circle cx="60" cy="8.5" r="3.9"/>
+    <circle cx="78.5" cy="14.5" r="3.4"/>
+    <!-- M -->
+    <text x="60" y="113" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="84" font-weight="700">M</text>
+  </g>
+  <!-- subtle highlight on the M -->
+  <text x="60" y="113" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="84" font-weight="700" fill="url(#mhsShine)">M</text>
+</svg>
