@@ -1137,3 +1137,22 @@ html { scrollbar-width: none; -ms-overflow-style: none; }
 html::-webkit-scrollbar { width: 0; height: 0; display: none; }
 body { scrollbar-width: none; -ms-overflow-style: none; }
 body::-webkit-scrollbar { width: 0; height: 0; display: none; }
+
+/* ==========================================================================
+   Technology Partner (team page)
+   ========================================================================== */
+.tech-partner { display: flex; flex-direction: column; align-items: center; text-align: center;
+  max-width: 680px; margin: 0 auto; }
+.tp-avatar { width: 96px; height: 96px; margin-bottom: 22px; }
+.tp-avatar svg { width: 54px; height: 54px; }
+.tech-partner h3 { font-size: 1.7rem; margin-bottom: 6px; }
+.tech-partner .team-role { margin-bottom: 16px; }
+.tech-partner p { font-size: 1.02rem; line-height: 1.7; max-width: 60ch; }
+
+/* ===== Team avatar icons (male / female) ===== */
+.team-avatar { width: 76px; height: 76px; border-radius: 50%; background: #0a0a0a;
+  display: flex; align-items: center; justify-content: center; margin-bottom: 18px;
+  transition: background .3s var(--ease); }
+.team-avatar svg { width: 42px; height: 42px; fill: var(--teal); transition: fill .3s var(--ease); }
+.team-card:hover .team-avatar { background: var(--teal); }
+.team-card:hover .team-avatar svg { fill: #fff; }
